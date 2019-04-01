@@ -2,7 +2,7 @@ body{
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
 	padding:0;
 	margin:0;
-	background-color:#090708;
+	background-color:#ffffff;
 }
 form .submit:hover{
 	background-color:#f44336;
@@ -124,7 +124,7 @@ ul{
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
-  color: white;
+  color: #000000;
   font-size: 20px;
 }
 
@@ -134,8 +134,8 @@ ul{
 }
 
 .facebook {
-  background: none;
-  color: white;
+  background: white;
+  color: #000000;
 }
 
 .twitter {
@@ -154,7 +154,7 @@ ul{
 }
 
 .youtube {
-  background: none;
+  background: white;
   color: white;
 }
 
@@ -222,8 +222,8 @@ ul{
 
 #boxes{
 	margin-top:0px;
-	border-top:#ffffff 3px solid;
-	border-bottom:#ffffff 3px solid;
+	border-top:#FF0044 3px solid;
+	border-bottom:#FF0044 3px solid;
 }
 
 #boxes .box{
@@ -231,7 +231,6 @@ ul{
 	text-align: center;
 	width:30%;
 	padding:10px;
-	color: #FDFDFD;
 }
 
 #boxes .box img{
@@ -299,8 +298,8 @@ footer{
 
 /* Media Queries */
 
-@media(max-width: 768px){
-	.header #branding, .header nav, .header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar{
+@media screen and (max-width: 800px){
+	.header #branding, .header nav, .header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar, #showcase, #showcase1{
 		float:none;
 		text-align:center;
 		width:100%;
@@ -308,10 +307,12 @@ footer{
 	
 	.header{
 		padding-bottom:15px;
+		width:100%;
 	}
 	
 	#showcase hl{
 		margin-top:50px;
+		width:100%;
 	}
 	
 	#newsletter button, .quote button{
@@ -325,5 +326,6 @@ footer{
 	}
 	#main{
 		margin-top:50px;
+		width:100%;
 	}
 }
