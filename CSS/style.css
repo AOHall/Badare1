@@ -55,7 +55,7 @@ ul{
 	border:#FF0044 3px solid;
 }
 
-/* Header**/
+/* Header*/
 
 .header{
 	background:#ffffff;
@@ -111,7 +111,7 @@ ul{
 /*showcase*/
 #showcase{
 	min-height:600px;
-	background:url('../images/showcase.jpg') no-repeat 0 -150px;
+	background:url('../Images/showcase.jpg') no-repeat 0 -150px;
 	text-align:center;
 	color:#ffffff;
 }
@@ -219,7 +219,7 @@ ul#service li{
 }
 
 
-/*footer*/
+/*Footer*/
 footer{
 	padding:20px;
 	margin-top:20px;
