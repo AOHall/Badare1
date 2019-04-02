@@ -297,8 +297,7 @@ footer{
 }
 
 /* Media Queries */
-
-@media screen and (max-width: 800px){
+@media screen and (min-width:10px) and (max-width:800px){
 	.header #branding, .header nav, .header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar, #showcase, #showcase1{
 		float:none;
 		text-align:center;
