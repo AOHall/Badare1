@@ -122,10 +122,10 @@ ul{
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 14px;
   transition: all 0.3s ease;
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Style the social media icons with color, if you want */
