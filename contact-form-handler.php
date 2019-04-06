@@ -10,7 +10,7 @@
 					"User Email: $visitor_email .\n".
 						"User Message: $message .\n";
 						
-	$to = "hallingstad.andreas@gmail.com";
+	$to = "andrha16@uia.no";
 	
 	$headers = "From: $email_from \r\n";
 	
