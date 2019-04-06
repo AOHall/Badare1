@@ -11,7 +11,7 @@
 					"User Email: $visitor_email.\n".
 						"User Message: $message.\n";
 						
-	$to ="hallingstad.andreas@gmail.com;
+	$to ="hallingstad.andreas@gmail.com";
 	
 	$headers = "From: $email_from \r\n";
 	
@@ -19,5 +19,4 @@
 	mail($to,$email_subject,$email_body,$headers);
 	
 	header("Location: kontakt.html");
-
-?>
+?> 
