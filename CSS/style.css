@@ -114,7 +114,7 @@ ul{
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
-  top: 50%;
+  top: 7.5%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -132,11 +132,12 @@ ul{
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #ff0044;
+  /* background-color: #ff0044; */
+  color: #ff0044
 }
 
 .facebook {
-  background:#ffffff;
+  background:#none;
   color: #000000;
 }
 
@@ -146,7 +147,7 @@ ul{
 }
 
 .youtube {
-  background:#ffffff;
+  background:#none;
   color: #000000;
 }
 
@@ -227,7 +228,7 @@ ul{
 	text-align: center;
 	width:30%;
 	padding:10px;
-	font-family: 'Bungee Hairline', serif;
+	font-family: 'Cabin Sketch', serif;
 }
 
 #boxes .box img{
