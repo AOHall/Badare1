@@ -124,10 +124,10 @@ ul{
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 14px;
+  padding: 12px;
   transition: all 0.3s ease;
   color: #000000;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Style the social media icons with color, if you want */
@@ -136,18 +136,8 @@ ul{
 }
 
 .facebook {
-  background: white;
+  background:#ffffff;
   color: #000000;
-}
-
-.twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.google {
-  background: #dd4b39;
-  color: white;
 }
 
 .linkedin {
@@ -156,14 +146,14 @@ ul{
 }
 
 .youtube {
-  background: white;
-  color: white;
+  background:#ffffff;
+  color: #000000;
 }
 
 /*showcase*/
 #showcase{
 	min-height:600px;
-	background:url('../Images/showcase.jpg') no-repeat 0 -150px;
+	background:url('../Images/showcase.jpg') no-repeat -100px -150px;
 	text-align:center;
 	color:#ffffff;
 }
@@ -182,7 +172,7 @@ ul{
 
 #showcase1{
 	min-height:600px;
-	background:url('../Images/showcase1.jpg') no-repeat 0 -350px;
+	background:url('../Images/showcase1.jpg') no-repeat -150px -350px;
 	text-align:center;
 	color:#ffffff;
 }
